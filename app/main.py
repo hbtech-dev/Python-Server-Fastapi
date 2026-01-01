@@ -23,7 +23,7 @@ app.include_router(api_router, prefix=settings.API_V1_STR)
 @app.get("/")
 async def root():
     return {
-        "message": "Welcome to FastAPI Backend Server",
+        "message": "Welcome to FastAPI Backend Server Developed by HB HOUSE",
         "version": settings.VERSION,
         "docs": "/docs",
         "redoc": "/redoc"
